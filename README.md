@@ -2,45 +2,45 @@
 Minecraft Command Block Assembly Computer
 MCAC
  
-NOP *NO OPERATION*
+NOP **NO OPERATION**
 0x000	-	NULL
-MOV *MOVE*
+MOV **MOVE*
 0x001	-	<reg>		<reg>
 0x002	-	<reg>		<mem>
 0x003	-	<mem>		<reg>
 0x004	-	<reg>		<const>
 0x005	-	<mem>		<const>
 
-ADD *ADDITION*
+ADD **ADDITION*
 0x006	-	<reg>		<reg>
 0x007	-	<reg>		<mem>
 0x008	-	<mem>		<reg>
 0x009	-	<reg>		<const>
 0x00A	-	<mem>		<const>
 
-SUB *SUBTRACTION*
+SUB **SUBTRACTION**
 0x00B	-	<reg>		<reg>
 0x00C	-	<reg>		<mem>
 0x00D	-	<mem>		<reg>
 0x00E	-	<reg>		<const>
 0x00F	-	<mem>		<const>
 
-INC *INCREMENT*
+INC **INCREMENT**
 0x010	-	<reg>
 0x011	-	<mem>
 
-DEC *DECREMENT*
+DEC **DECREMENT**
 0x012	-	<reg>
 0x013	-	<mem>
 
-CMP *COMPAIR*
+CMP **COMPAIR**
 0x014	-	<reg>		<reg>
 0x015	-	<reg>		<mem>
 0x016	-	<mem>		<reg>
 0x017	-	<reg>		<const>
 0x018	-	<mem>		<const>
 
-JMP *JUMP*
+JMP **JUMP**
 0x019	-	<mem>	
 Je	0x01A	-	<mem>
 Jne	0x01B	-	<mem>
@@ -51,7 +51,7 @@ Jl	0x01F	-	<mem>
 Jle	0x020	-	<mem>
 
 
-RJMP *RELATIVE JUMP*
+RJMP **RELATIVE JUMP**
 0x021	-	<const>	
 Je	0x022	-	<const>
 Jne	0x023	-	<const>
@@ -61,31 +61,31 @@ Jge	0x026	-	<const>
 Jl	0x027	-	<const>
 Jle	0x028	-	<const>
 
-PRINT *PRINT*
+PRINT **PRINT**
 0x029	-	<reg>	
 0x02A	-	<mem>
 
-IMUL *INTEGER MULTIPLY*
+IMUL **INTEGER MULTIPLY**
 0x02B	-	<reg>		<reg>
 0x02C	-	<reg>		<mem>
 0x02D	-	<mem>		<reg>
 0x02E	-	<reg>		<const>
 0x02F	-	<mem>		<const>
 
-SSTK *SET STACK*
+SSTK **SET STACK**
 0x030	-	<mem>
 
-PUSH *PUSH*
+PUSH **PUSH**
 0x031	-	<reg>
 0x032	-	<mem>
 0x033	-	<const>
 
-POP *POP*
+POP **POP**
 0x034	-	<reg>
 0x035	-	<mem>
 
-RET *RETURN*
+RET **RETURN**
 0x036	-	NULL
 
-HLT *HALT*
+HLT **HALT**
 0x0FF	-	NULL
