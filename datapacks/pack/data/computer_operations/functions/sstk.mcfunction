@@ -1,0 +1,3 @@
+tellraw @p [{"text":"0x","color":"#A080FF"},{"score":{"name":"EIP","objective":"computer"}},{"text":"d"},{"text":":","color":"white"},{"text":" SSTK ","color":"#F92472"},{"text":"0x","color":"#2472F9"},{"score":{"name":"Cache_D","objective":"computer"},"color":"#2472F9"},{"text":"d","color":"#2472F9"}]
+scoreboard players operation ESP computer = Cache_D computer
+scoreboard players set EIR computer 0
