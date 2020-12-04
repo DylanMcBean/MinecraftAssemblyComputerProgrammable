@@ -6,7 +6,7 @@ NOP **NO OPERATION**
 ```
 0x000	-	NULL
 ```
-MOV **MOVE*
+MOV **MOVE**
 ```
 0x001	-	<reg>		<reg>
 0x002	-	<reg>		<mem>
@@ -14,7 +14,7 @@ MOV **MOVE*
 0x004	-	<reg>		<const>
 0x005	-	<mem>		<const>
 ```
-ADD **ADDITION*
+ADD **ADDITION**
 ```
 0x006	-	<reg>		<reg>
 0x007	-	<reg>		<mem>
