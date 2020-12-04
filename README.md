@@ -92,7 +92,7 @@ IMUL **INTEGER MULTIPLY**
 0x02D	-	<mem>		<reg>
 0x02E	-	<reg>		<const>
 0x02F	-	<mem>		<const>
-``
+```
 
 SSTK **SET STACK**
 ```
