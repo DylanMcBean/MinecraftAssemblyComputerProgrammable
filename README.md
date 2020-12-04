@@ -6,6 +6,7 @@ NOP **NO OPERATION**
 ```
 0x000	-	NULL
 ```
+
 MOV **MOVE**
 ```
 0x001	-	<reg>		<reg>
@@ -14,6 +15,7 @@ MOV **MOVE**
 0x004	-	<reg>		<const>
 0x005	-	<mem>		<const>
 ```
+
 ADD **ADDITION**
 ```
 0x006	-	<reg>		<reg>
@@ -22,6 +24,7 @@ ADD **ADDITION**
 0x009	-	<reg>		<const>
 0x00A	-	<mem>		<const>
 ```
+
 SUB **SUBTRACTION**
 ```
 0x00B	-	<reg>		<reg>
@@ -30,15 +33,19 @@ SUB **SUBTRACTION**
 0x00E	-	<reg>		<const>
 0x00F	-	<mem>		<const>
 ```
+
 INC **INCREMENT**
+```
 0x010	-	<reg>
 0x011	-	<mem>
+```
 
 DEC **DECREMENT**
 ```
 0x012	-	<reg>
 0x013	-	<mem>
 ```
+
 CMP **COMPAIR**
 ```
 0x014	-	<reg>		<reg>
@@ -47,6 +54,7 @@ CMP **COMPAIR**
 0x017	-	<reg>		<const>
 0x018	-	<mem>		<const>
 ```
+
 JMP **JUMP**
 ```
 0x019	-	<mem>	
@@ -70,11 +78,13 @@ Jge	0x026	-	<const>
 Jl	0x027	-	<const>
 Jle	0x028	-	<const>
 ```
+
 PRINT **PRINT**
 ```
 0x029	-	<reg>	
 0x02A	-	<mem>
 ```
+
 IMUL **INTEGER MULTIPLY**
 ```
 0x02B	-	<reg>		<reg>
@@ -83,25 +93,30 @@ IMUL **INTEGER MULTIPLY**
 0x02E	-	<reg>		<const>
 0x02F	-	<mem>		<const>
 ``
+
 SSTK **SET STACK**
 ```
 0x030	-	<mem>
 ```
+
 PUSH **PUSH**
 ```
 0x031	-	<reg>
 0x032	-	<mem>
 0x033	-	<const>
 ```
+
 POP **POP**
 ```
 0x034	-	<reg>
 0x035	-	<mem>
 ```
+
 RET **RETURN**
 ```
 0x036	-	NULL
 ```
+
 HLT **HALT**
 ```
 0x0FF	-	NULL
